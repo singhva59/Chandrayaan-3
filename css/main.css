@@ -479,6 +479,7 @@ h2 {
   transform: translateY(0.72rem);
   opacity: 0;
   transition: transform 0.5s, opacity 0.5s;
+  text-shadow: 4px 4px 4px #aeebeb;
 }
 
 .Credit_Checkbox {
@@ -523,7 +524,7 @@ h2 {
     -0.02em  0.02em transparent,
      0.02em -0.02em transparent,
      0.02em  0.02em transparent;
-  transition: color 0.5s, text-shadow 0.5s;
+  transition: color 0.1s, text-shadow 0.5s;
 }
 .Credit_Link:hover {
   color: #e41717;
@@ -532,7 +533,7 @@ h2 {
     -0.02em  0.02em currentColor,
      0.02em -0.02em currentColor,
      0.02em  0.02em currentColor;
-  text-shadow: 6px 6px 6px #aeebeb;
+ 
 }
 .Credit_Checkbox:checked ~ .Credit_Head > .Credit_Link {
   pointer-events: all;
