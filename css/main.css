@@ -456,7 +456,7 @@ h2 {
 }
 .Credit-active {
   opacity: 1;
-  transition-duration: 1s;
+  transition-duration: 5s;
 }
 
 .Credit_Head {
@@ -478,7 +478,7 @@ h2 {
   pointer-events: none;
   transform: translateY(0.72rem);
   opacity: 0;
-  transition: transform 0.8s, opacity 0.8s;
+  transition: transform 0.5s, opacity 0.5s;
   text-shadow: 2px 2px 2px #aeebeb;
 }
 
@@ -507,7 +507,7 @@ h2 {
   stroke: currentColor;
   stroke-width: 1.2;
   overflow: visible;
-  transition: fill 1s, stroke 0.5s;
+  transition: fill 0.5s, stroke 0.5s;
 }
 .Credit_Label:hover > .Credit_Heart,
 .Credit_Checkbox:checked ~ .Credit_Head > .Credit_Label > .Credit_Heart {
@@ -524,7 +524,7 @@ h2 {
     -0.02em  0.02em transparent,
      0.02em -0.02em transparent,
      0.02em  0.02em transparent;
-  transition: color 0.1s, text-shadow 0.5s;
+  transition: color 0.5s, text-shadow 0.5s;
 }
 .Credit_Link:hover {
   color: #e41717;
