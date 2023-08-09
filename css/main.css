@@ -526,12 +526,13 @@ h2 {
   transition: color 0.5s, text-shadow 0.5s;
 }
 .Credit_Link:hover {
-  color:  #4796e9;
+  color: #e41717;
   text-shadow:
     -0.02em -0.02em currentColor,
     -0.02em  0.02em currentColor,
      0.02em -0.02em currentColor,
      0.02em  0.02em currentColor;
+  text-shadow: 6px 6px 6px #aeebeb;
 }
 .Credit_Checkbox:checked ~ .Credit_Head > .Credit_Link {
   pointer-events: all;
